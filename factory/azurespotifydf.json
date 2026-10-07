@@ -1,0 +1,15 @@
+{
+	"name": "azurespotifydf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "55ff52eb-a695-48fe-86ef-3b243540de37",
+		"tenantId": "a430e489-f091-4d1b-8dab-fd88deef579d"
+	}
+}
