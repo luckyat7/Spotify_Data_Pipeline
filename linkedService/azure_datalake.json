@@ -2,7 +2,7 @@
 	"name": "azure_datalake",
 	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
-		"description": "Linked Service to connect ADF to Azure DataLake",
+		"description": "Linked Service to connect ADF to Azure DataLake (Write Operation)",
 		"annotations": [],
 		"type": "AzureBlobFS",
 		"typeProperties": {
