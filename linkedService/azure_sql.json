@@ -2,7 +2,7 @@
 	"name": "azure_sql",
 	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
-		"description": "Linked service to connect ADF to Azure SQL Server",
+		"description": "Linked service to connect ADF to Azure SQL Server (Read Operaion)",
 		"annotations": [],
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
