@@ -187,7 +187,10 @@
 														"value": "@{item().table}",
 														"type": "Expression"
 													},
-													"file": "@concat(pipeline().parameters.table, '_', variables('current'))"
+													"file": {
+														"value": "@{item()}_@{variables('current')}_cdc\n",
+														"type": "Expression"
+													}
 												}
 											},
 											"enableLogging": false,
