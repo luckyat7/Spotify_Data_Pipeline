@@ -325,9 +325,7 @@
 					{
 						"activity": "Folder Looping",
 						"dependencyConditions": [
-							"Succeeded",
-							"Failed",
-							"Completed"
+							"Failed"
 						]
 					}
 				],
